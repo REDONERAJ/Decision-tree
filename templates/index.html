@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Decision Tree Diabetes Progression Predictor</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; background-color: #eef2f3; }
+        h1 { color: #333; }
+        form { background: #fff; padding: 20px; border-radius: 10px; display: inline-block; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
+        input { padding: 10px; margin: 10px; width: 250px; border: 1px solid #ccc; border-radius: 5px; }
+        button { padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #0056b3; }
+        .result { font-size: 20px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Decision Tree Diabetes Progression Predictor</h1>
+    <form method="POST">
+        <input type="number" name="age" placeholder="Age (years) e.g. 55" step="1" required><br>
+        <input type="number" name="bmi" placeholder="BMI (kg/m²) e.g. 27.5" step="0.1" required><br>
+        <input type="number" name="bp" placeholder="Blood Pressure (mm Hg) e.g. 82" step="0.1" required><br>
+        <input type="number" name="s5" placeholder="S5 serum measurement e.g. 4.6" step="0.01" required><br>
+        <input type="number" name="s1" placeholder="S1 serum measurement e.g. 0.06" step="0.001" required><br>
+        <button type="submit">Predict Disease Progression</button>
+    </form>
+
+    {% if prediction is not none %}
+        <div class="result">
+            <p><strong>Predicted Disease Progression:</strong> {{ prediction | round(2) }}</p>
+        </div>
+    {% endif %}
+</body>
+</html>
