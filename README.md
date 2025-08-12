@@ -60,7 +60,10 @@ joblib
 ---
 
 ##  Sample UI
-
+## 🖼 Sample UI
+<img width="1366" height="647" alt="Screenshot 2025-08-10 220201" src="https://github.com/user-attachments/assets/daa84004-5811-48c5-9675-4a8e1ddb8e98" />
+<img width="1366" height="633" alt="Screenshot 2025-08-10 220224" src="https://github.com/user-attachments/assets/6bf67d3d-dea8-4b5f-a107-d66786eea2e6" />
+<img width="1366" height="633" alt="Screenshot 2025-08-10 220241" src="https://github.com/user-attachments/assets/1fbac2c0-e6d3-4425-8255-2e0fb49ee4b0" />
 
 ---
 
