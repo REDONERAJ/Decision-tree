@@ -1,11 +1,11 @@
-# 🌳 Decision Tree Diabetes Progression Predictor
+#  Decision Tree Diabetes Progression Predictor
 
-## 📌 About
+##  About
 **Decision Tree Regression** is a non-linear model that predicts a target variable by splitting the dataset into branches based on feature values. It uses if-else rules to form a tree structure, where each leaf node represents a predicted value, making it easy to interpret and visualize.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```
 ├── model.py        # Trains the Decision Tree model on the Diabetes dataset
 ├── app.py          # Flask app to serve predictions
@@ -17,7 +17,7 @@
 
 ---
 
-## 📊 Dataset
+##  Dataset
 We use the **Diabetes dataset** from `sklearn.datasets`, which contains medical details to predict disease progression.  
 Features used:
 - **Age** (years)
@@ -30,7 +30,7 @@ Target: A quantitative measure of diabetes progression one year after baseline.
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 1. Clone this repository  
 2. Install dependencies  
 ```
@@ -48,7 +48,7 @@ python app.py
 
 ---
 
-## 📦 Requirements
+##  Requirements
 ```
 Flask
 scikit-learn
@@ -59,7 +59,7 @@ joblib
 
 ---
 
-## 🖼 Sample UI
+##  Sample UI
 
 
 ---
